@@ -54,9 +54,6 @@ body {
     justify-content: space-around;
     margin-top: 40px;
     padding: 20px 0;
-    border-top: 1px solid #ccc;
-    
-
 }
 
 .details div {
@@ -72,7 +69,6 @@ body {
 .details p {
     margin: 5px 0;
     font-size: 14px;
- 
 }
 
 .vedre{
@@ -83,13 +79,10 @@ body {
     height: 110px;
     box-sizing: border-box;
     margin-right: 160px;
-
 }
 
 .content-imagetwo {
     margin-top: -50px;
-   
-    
 }
 .ehmed{
     box-sizing: border-box;
@@ -115,7 +108,10 @@ body {
 
 
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) {
+    .content-image {
+        display: none;
+    }
     .about-course {
         flex-direction: column;
         text-align: center;
@@ -139,9 +135,9 @@ body {
         width: 100%;
         margin-bottom: 20px;
     }
-}
+} */
 
-@media (max-width: 776px) {
+/* @media (max-width: 776px) {
     body {
         padding: 10px;
     }
@@ -165,7 +161,10 @@ body {
     .info-box strong {
         font-size: 20px;
     }
-}
+    /* .content-image {
+        display: none;
+    } */
+ 
 
 
 
